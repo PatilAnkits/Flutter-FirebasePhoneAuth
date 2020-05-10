@@ -17,7 +17,6 @@ class MyApp extends StatelessWidget {
       ),
       home: 
       FirebasePhoneAuth(
-      titleTop: 'Heelo',
       theamColor: Colors.redAccent,
       title: "Ankit Patil",
       imgPath:"assets/images/doctors.png",

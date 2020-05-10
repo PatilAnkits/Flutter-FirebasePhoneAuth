@@ -5,8 +5,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/services.dart';
 
 class FirebasePhoneAuth extends StatefulWidget {
-  FirebasePhoneAuth({Key key, this.titleTop,this.imgPath,this.title,this.redirectTo,this.theamColor}) : super(key: key);
-  final String titleTop;
+  FirebasePhoneAuth({Key key,this.imgPath,this.title,this.redirectTo,this.theamColor}) : super(key: key);
   final String  imgPath;
   final String title;
   final Color theamColor;
@@ -149,7 +148,7 @@ class _MyAppPageState extends State<FirebasePhoneAuth> {
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         elevation: 0.0,
-        title: Text(widget.titleTop,
+        title: Text(widget.title,
             style: TextStyle(
                 fontFamily: 'Montserrat', fontSize: 18.0, color: Colors.white)),
         centerTitle: true,
