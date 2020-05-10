@@ -1,4 +1,4 @@
-# firebase_phoneauth
+# Firebase Phone Authentication.
 
 A new Flutter package project.
 
