@@ -40,7 +40,7 @@ samples, guidance on mobile development, and a full API reference.
     <td>This is Alert Dialog For OTP validation which has OTP filed which is showed after click on varify Button as you can see below.</td> 
   </tr>
   <tr>
-    <td align="center"><img src="gifs/alert.jpg" width="75%"/></td>
-    <td align="center"><img src="gifs/animated.jpg" width="75%"/></td> 
+    <td align="center"><img src="gifs/dailog.jpg" width="75%"/></td>
+    <td align="center"><img src="gifs/login.jpg" width="75%"/></td> 
   </tr>
 </table>
