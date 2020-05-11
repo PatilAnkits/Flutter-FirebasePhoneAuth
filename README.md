@@ -28,7 +28,7 @@ samples, guidance on mobile development, and a full API reference.
 
 # Introduction
 
-**Firebase Phone Authentication** library is built upon Flutter Firebase Phone Authentication library. This API will be useful to create phone authentication animated, login page  in Flutter  easily. 
+**Firebase Phone Authentication** library is built upon Flutter `firebase_auth library`. This API will be useful to create phone authentication animated, login page  in Flutter  easily. 
 
 <table style="width:100%">
   <tr>
