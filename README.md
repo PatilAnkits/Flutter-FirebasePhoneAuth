@@ -52,7 +52,9 @@ Implementation of Firebase Phone Authentication library is so easy. You can chec
 As there are two types of dialogs in library. Material Dialogs are instantiated as follows.
 #### i. Phone Authentication -
 `FirebasePhoneAuth` class is used to create Phone Authentication . Its dynamic `state` class is used to instantiate it. 
-```java
+```dart
+
+
 
        FirebasePhoneAuth(
        
@@ -63,6 +65,12 @@ As there are two types of dialogs in library. Material Dialogs are instantiated 
       imgPath:"assets/images/doctors.png",
       
       redirectTo: "/homepage", // pass the homepage of your project
+    ) 
+
+
+
+
+
 ```
 
 <img align="center" src="gifs/healthcare.gif" width="300"/>
