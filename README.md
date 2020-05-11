@@ -78,7 +78,7 @@ As there are two types of dialogs in library. Material Dialogs are instantiated 
 #### ii. How to include in Main File.
 ## Create a file like `authservice.dart`
 
-```
+```dart
 import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -112,7 +112,7 @@ class MyApp extends StatelessWidget {
 
 ## iii. Check User Login or not using following Code `main.dart`
 
-```
+```dart
 
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
