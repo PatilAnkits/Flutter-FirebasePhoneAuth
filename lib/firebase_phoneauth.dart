@@ -5,7 +5,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/services.dart';
 
 class FirebasePhoneAuth extends StatefulWidget {
-  FirebasePhoneAuth({Key key,this.imgPath,this.title,this.redirectTo,this.theamColor}) : super(key: key);
+  FirebasePhoneAuth({Key key,@required this.imgPath,@required this.title,@required this.redirectTo,@required this.theamColor}) : super(key: key);
   final String  imgPath;
   final String title;
   final Color theamColor;
