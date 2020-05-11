@@ -48,8 +48,47 @@ samples, guidance on mobile development, and a full API reference.
 ## Implementation
 Implementation of Firebase Phone Authentication library is so easy. You can check [/test](/test) directory for demo. Let's have look on basic steps of implementation.
 
+# Use this package as a library
+
+## 1. Depend on it
+
+Add this to your package's `pubspec.yaml` file:
+
+```
+dependencies:
+  firebase_phoneauth: ^0.0.1
+
+```
+## 2. Install it
+
+You can install packages from the command line:
+
+**with pub:**
+
+```
+$ pub get
+
+```
+
+**with flutter**
+
+```
+$ flutter pub get
+
+```
+
+## 3. Import it
+
+Now in your Dart code, you can use:
+
+```
+
+import 'package:firebase_phoneauth/firebase_phoneauth.dart';
+
+```
+
 ### Create Firebase-PhoneAuthentication Instance
-As there are two types of dialogs in library. Material Dialogs are instantiated as follows.
+
 #### i. Phone Authentication -
 `FirebasePhoneAuth` class is used to create Phone Authentication . Its dynamic `state` class is used to instantiate it. 
 ```dart
