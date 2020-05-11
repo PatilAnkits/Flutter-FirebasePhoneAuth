@@ -28,7 +28,7 @@ samples, guidance on mobile development, and a full API reference.
 
 # Introduction
 
-**MaterialAlerDialog** library is built upon Flutter Material Design library. This API will be useful to create rich, animated, beautiful dialogs in Flutter  easily. 
+**Firebase Phone Authentication** library is built upon Flutter Firebase Phone Authentication library. This API will be useful to create phone authentication animated, login page  in Flutter  easily. 
 
 <table style="width:100%">
   <tr>
@@ -46,7 +46,7 @@ samples, guidance on mobile development, and a full API reference.
 </table>
 
 ## Implementation
-Implementation of Firebase Phone Authentication library is so easy. You can check [/app](/app) directory for demo. Let's have look on basic steps of implementation.
+Implementation of Firebase Phone Authentication library is so easy. You can check [/test](/test) directory for demo. Let's have look on basic steps of implementation.
 
 ### Create Firebase-PhoneAuthentication Instance
 As there are two types of dialogs in library. Material Dialogs are instantiated as follows.
